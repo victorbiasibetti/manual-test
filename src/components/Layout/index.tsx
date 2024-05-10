@@ -1,5 +1,5 @@
 import Footer from "../Footer";
-import Header from "../Header";
+import Hero from "../Hero";
 import styles from "./styles.module.scss";
 
 type Props = {
@@ -9,7 +9,7 @@ type Props = {
 const DefaultLayout = ({ children }: Props) => {
   return (
     <div className={styles.layout}>
-      <Header />
+      <Hero />
       {children}
       <Footer />
     </div>

@@ -2,7 +2,7 @@ import Image from "next/image";
 import styles from "./styles.module.scss";
 import logo from "../../../public/images/logo.png";
 
-const Header = () => {
+const Hero = () => {
   return (
     <div className={styles.wrapper}>
       <nav className={styles.nav}>
@@ -23,4 +23,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default Hero;
